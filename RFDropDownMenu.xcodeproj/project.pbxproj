@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AB83D321FA82828004F9989 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB83D311FA82828004F9989 /* main.m */; };
+		5AB83D351FA82828004F9989 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB83D341FA82828004F9989 /* AppDelegate.m */; };
+		5AB83D381FA82829004F9989 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB83D371FA82829004F9989 /* ViewController.m */; };
+		5AB83D3B1FA82829004F9989 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AB83D391FA82829004F9989 /* Main.storyboard */; };
+		5AB83D3D1FA82829004F9989 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AB83D3C1FA82829004F9989 /* Assets.xcassets */; };
+		5AB83D401FA82829004F9989 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AB83D3E1FA82829004F9989 /* LaunchScreen.storyboard */; };
+		5AB83D4B1FA82829004F9989 /* RFDropDownMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB83D4A1FA82829004F9989 /* RFDropDownMenuTests.m */; };
+		5AB83D561FA82829004F9989 /* RFDropDownMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB83D551FA82829004F9989 /* RFDropDownMenuUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AB83D471FA82829004F9989 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AB83D251FA82827004F9989 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AB83D2C1FA82827004F9989;
+			remoteInfo = RFDropDownMenu;
+		};
+		5AB83D521FA82829004F9989 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AB83D251FA82827004F9989 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AB83D2C1FA82827004F9989;
+			remoteInfo = RFDropDownMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AB83D2D1FA82827004F9989 /* RFDropDownMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFDropDownMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AB83D311FA82828004F9989 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AB83D331FA82828004F9989 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5AB83D341FA82828004F9989 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5AB83D361FA82828004F9989 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5AB83D371FA82829004F9989 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5AB83D3A1FA82829004F9989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AB83D3C1FA82829004F9989 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AB83D3F1FA82829004F9989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5AB83D411FA82829004F9989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AB83D461FA82829004F9989 /* RFDropDownMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFDropDownMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AB83D4A1FA82829004F9989 /* RFDropDownMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFDropDownMenuTests.m; sourceTree = "<group>"; };
+		5AB83D4C1FA82829004F9989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AB83D511FA82829004F9989 /* RFDropDownMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFDropDownMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AB83D551FA82829004F9989 /* RFDropDownMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFDropDownMenuUITests.m; sourceTree = "<group>"; };
+		5AB83D571FA82829004F9989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AB83D2A1FA82827004F9989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB83D431FA82829004F9989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB83D4E1FA82829004F9989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AB83D241FA82827004F9989 = {
+			isa = PBXGroup;
+			children = (
+				5AB83D2F1FA82828004F9989 /* RFDropDownMenu */,
+				5AB83D491FA82829004F9989 /* RFDropDownMenuTests */,
+				5AB83D541FA82829004F9989 /* RFDropDownMenuUITests */,
+				5AB83D2E1FA82827004F9989 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AB83D2E1FA82827004F9989 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AB83D2D1FA82827004F9989 /* RFDropDownMenu.app */,
+				5AB83D461FA82829004F9989 /* RFDropDownMenuTests.xctest */,
+				5AB83D511FA82829004F9989 /* RFDropDownMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AB83D2F1FA82828004F9989 /* RFDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				5AB83D331FA82828004F9989 /* AppDelegate.h */,
+				5AB83D341FA82828004F9989 /* AppDelegate.m */,
+				5AB83D361FA82828004F9989 /* ViewController.h */,
+				5AB83D371FA82829004F9989 /* ViewController.m */,
+				5AB83D391FA82829004F9989 /* Main.storyboard */,
+				5AB83D3C1FA82829004F9989 /* Assets.xcassets */,
+				5AB83D3E1FA82829004F9989 /* LaunchScreen.storyboard */,
+				5AB83D411FA82829004F9989 /* Info.plist */,
+				5AB83D301FA82828004F9989 /* Supporting Files */,
+			);
+			path = RFDropDownMenu;
+			sourceTree = "<group>";
+		};
+		5AB83D301FA82828004F9989 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AB83D311FA82828004F9989 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AB83D491FA82829004F9989 /* RFDropDownMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AB83D4A1FA82829004F9989 /* RFDropDownMenuTests.m */,
+				5AB83D4C1FA82829004F9989 /* Info.plist */,
+			);
+			path = RFDropDownMenuTests;
+			sourceTree = "<group>";
+		};
+		5AB83D541FA82829004F9989 /* RFDropDownMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5AB83D551FA82829004F9989 /* RFDropDownMenuUITests.m */,
+				5AB83D571FA82829004F9989 /* Info.plist */,
+			);
+			path = RFDropDownMenuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AB83D2C1FA82827004F9989 /* RFDropDownMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AB83D5A1FA82829004F9989 /* Build configuration list for PBXNativeTarget "RFDropDownMenu" */;
+			buildPhases = (
+				5AB83D291FA82827004F9989 /* Sources */,
+				5AB83D2A1FA82827004F9989 /* Frameworks */,
+				5AB83D2B1FA82827004F9989 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RFDropDownMenu;
+			productName = RFDropDownMenu;
+			productReference = 5AB83D2D1FA82827004F9989 /* RFDropDownMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AB83D451FA82829004F9989 /* RFDropDownMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AB83D5D1FA82829004F9989 /* Build configuration list for PBXNativeTarget "RFDropDownMenuTests" */;
+			buildPhases = (
+				5AB83D421FA82829004F9989 /* Sources */,
+				5AB83D431FA82829004F9989 /* Frameworks */,
+				5AB83D441FA82829004F9989 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AB83D481FA82829004F9989 /* PBXTargetDependency */,
+			);
+			name = RFDropDownMenuTests;
+			productName = RFDropDownMenuTests;
+			productReference = 5AB83D461FA82829004F9989 /* RFDropDownMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5AB83D501FA82829004F9989 /* RFDropDownMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AB83D601FA82829004F9989 /* Build configuration list for PBXNativeTarget "RFDropDownMenuUITests" */;
+			buildPhases = (
+				5AB83D4D1FA82829004F9989 /* Sources */,
+				5AB83D4E1FA82829004F9989 /* Frameworks */,
+				5AB83D4F1FA82829004F9989 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AB83D531FA82829004F9989 /* PBXTargetDependency */,
+			);
+			name = RFDropDownMenuUITests;
+			productName = RFDropDownMenuUITests;
+			productReference = 5AB83D511FA82829004F9989 /* RFDropDownMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AB83D251FA82827004F9989 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "冯剑";
+				TargetAttributes = {
+					5AB83D2C1FA82827004F9989 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					5AB83D451FA82829004F9989 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5AB83D2C1FA82827004F9989;
+					};
+					5AB83D501FA82829004F9989 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5AB83D2C1FA82827004F9989;
+					};
+				};
+			};
+			buildConfigurationList = 5AB83D281FA82827004F9989 /* Build configuration list for PBXProject "RFDropDownMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AB83D241FA82827004F9989;
+			productRefGroup = 5AB83D2E1FA82827004F9989 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AB83D2C1FA82827004F9989 /* RFDropDownMenu */,
+				5AB83D451FA82829004F9989 /* RFDropDownMenuTests */,
+				5AB83D501FA82829004F9989 /* RFDropDownMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AB83D2B1FA82827004F9989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB83D401FA82829004F9989 /* LaunchScreen.storyboard in Resources */,
+				5AB83D3D1FA82829004F9989 /* Assets.xcassets in Resources */,
+				5AB83D3B1FA82829004F9989 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB83D441FA82829004F9989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB83D4F1FA82829004F9989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AB83D291FA82827004F9989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB83D381FA82829004F9989 /* ViewController.m in Sources */,
+				5AB83D351FA82828004F9989 /* AppDelegate.m in Sources */,
+				5AB83D321FA82828004F9989 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB83D421FA82829004F9989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB83D4B1FA82829004F9989 /* RFDropDownMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB83D4D1FA82829004F9989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB83D561FA82829004F9989 /* RFDropDownMenuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AB83D481FA82829004F9989 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AB83D2C1FA82827004F9989 /* RFDropDownMenu */;
+			targetProxy = 5AB83D471FA82829004F9989 /* PBXContainerItemProxy */;
+		};
+		5AB83D531FA82829004F9989 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AB83D2C1FA82827004F9989 /* RFDropDownMenu */;
+			targetProxy = 5AB83D521FA82829004F9989 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AB83D391FA82829004F9989 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AB83D3A1FA82829004F9989 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AB83D3E1FA82829004F9989 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AB83D3F1FA82829004F9989 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AB83D581FA82829004F9989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AB83D591FA82829004F9989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AB83D5B1FA82829004F9989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RFDropDownMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rocky.RFDropDownMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5AB83D5C1FA82829004F9989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RFDropDownMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rocky.RFDropDownMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5AB83D5E1FA82829004F9989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RFDropDownMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rocky.RFDropDownMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RFDropDownMenu.app/RFDropDownMenu";
+			};
+			name = Debug;
+		};
+		5AB83D5F1FA82829004F9989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RFDropDownMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rocky.RFDropDownMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RFDropDownMenu.app/RFDropDownMenu";
+			};
+			name = Release;
+		};
+		5AB83D611FA82829004F9989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RFDropDownMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rocky.RFDropDownMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RFDropDownMenu;
+			};
+			name = Debug;
+		};
+		5AB83D621FA82829004F9989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RFDropDownMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rocky.RFDropDownMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RFDropDownMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AB83D281FA82827004F9989 /* Build configuration list for PBXProject "RFDropDownMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB83D581FA82829004F9989 /* Debug */,
+				5AB83D591FA82829004F9989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AB83D5A1FA82829004F9989 /* Build configuration list for PBXNativeTarget "RFDropDownMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB83D5B1FA82829004F9989 /* Debug */,
+				5AB83D5C1FA82829004F9989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AB83D5D1FA82829004F9989 /* Build configuration list for PBXNativeTarget "RFDropDownMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB83D5E1FA82829004F9989 /* Debug */,
+				5AB83D5F1FA82829004F9989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AB83D601FA82829004F9989 /* Build configuration list for PBXNativeTarget "RFDropDownMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB83D611FA82829004F9989 /* Debug */,
+				5AB83D621FA82829004F9989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AB83D251FA82827004F9989 /* Project object */;
+}
